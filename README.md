@@ -1,8 +1,8 @@
-**Bookmark Manager Mini Project**
+**Bookmarks Manager Mini Project**
 
 
 > **Overview**
-This is a simple web application that serves as a bookmark manager. It allows users to add bookmarks for frequently used websites, supporting basic CRUD operations (Create, Read, Delete).
+This is a simple web application that serves as a bookmarks manager. It allows users to add bookmarks for frequently used websites, supporting basic CRUD operations (Create, Read, Delete).
 
 
 > **Features**
