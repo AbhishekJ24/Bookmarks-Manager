@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Abhishek's Bookmark Manager</title>
+</head>
+
+<body>
+    <div class="encloser">
+        <div class="enc">
+            <div class="box">
+                <p>Bookmarks Manager</p>
+                <ul id="bookmark-list"></ul>
+            </div>
+            <div class="option-menu">
+                <input type="text" name="link" id="link" placeholder="Enter the URL" />
+                <button onclick="adder()">Add URL</button>
+                <button onclick="deleter()">Remove Last URL</button>
+                <div class="down">
+                    <button onclick="downloader()">Download Bookmark List</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="encloser2">
+        <div class="enc2">
+            <div class="separator"></div>
+            <div id="upper-ball" class="ball"></div>
+            <div class="line"></div>
+            <div id="lower-ball" class="ball"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

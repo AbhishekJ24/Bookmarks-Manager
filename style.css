@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: #1a1a1d;
+    color: white;
+}
+
+.separator {
+    height: 100px;
+}
+
+.encloser {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid black;
+    background-color: #6f2232;
+    box-sizing: border-box;
+    width: 70vw;
+    height: 30vh;
+    margin: 30px;
+    overflow: scroll;
+    border: 1px solid white;
+}
+
+.box p {
+    font-size: 30px;
+    background-color: #6f2232;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.option-menu input {
+    padding: 10px;
+    width: 30vw;
+    margin-left: 33px;
+    border: 1px solid #4e4e50;
+    border-bottom: 1px solid #950740;
+}
+
+.option-menu button {
+    padding: 2px;
+    width: 17vw;
+    padding: 10px;
+    border: 1px solid #4e4e50;
+    border-bottom: 1px solid #950740;
+}
+
+.option-menu button:hover {
+    transform: scale(1.025);
+    color: #4e4e50;
+}
+
+#bookmark-list {
+    background-color: #6f2232;
+}
+
+#bookmark-list li {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #6f2232;
+}
+
+#bookmark-list li a {
+    text-decoration: none;
+    background-color: #6f2232;
+}
+
+#bookmark-list li a:hover {
+    color: gray;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.line {
+    width: 100vw;
+    height: 6px;
+    background-color: #4e4e50;
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid #950740;
+    background-color: #950740;
+    animation: ball-move 2s ease 0.5s infinite;
+}
+
+#upper-ball {
+    margin-bottom: 2px;
+}
+
+#lower-ball {
+    margin-top: 2px;
+    animation-direction: reverse;
+}
+
+@keyframes ball-move {
+    0% {
+        transform: translate(2vw) scale(1.2);
+    }
+
+    5% {
+        transform: translate(5vw);
+    }
+
+    10% {
+        transform: translate(10vw);
+    }
+
+    12.5% {
+        transform: translate(12.5vw) scale(1.2);
+    }
+
+    15% {
+        transform: translate(15vw);
+    }
+
+    20% {
+        transform: translate(20vw);
+    }
+
+    25% {
+        transform: translate(25vw) scale(1.2);
+    }
+
+    30% {
+        transform: translate(30vw);
+    }
+
+    35% {
+        transform: translate(35vw);
+    }
+
+    37.5% {
+        transform: translate(37.5vw) scale(1.2);
+    }
+
+    40% {
+        transform: translate(40vw);
+    }
+
+    45% {
+        transform: translate(45vw);
+    }
+
+    50% {
+        transform: translate(50vw) scale(1.2);
+    }
+
+    55% {
+        transform: translate(55vw);
+    }
+
+    60% {
+        transform: translate(60vw);
+    }
+
+    62.5% {
+        transform: translate(62.5vw) scale(1.2);
+    }
+
+    65% {
+        transform: translate(65vw);
+    }
+
+    70% {
+        transform: translate(70vw);
+    }
+
+    75% {
+        transform: translate(75vw) scale(1.2);
+    }
+
+    80% {
+        transform: translate(80vw);
+    }
+
+    85% {
+        transform: translate(85vw);
+    }
+
+    87.5% {
+        transform: translate(87.5vw) scale(1.2);
+    }
+
+    90% {
+        transform: translate(90vw);
+    }
+
+    95% {
+        transform: translate(95vw);
+    }
+
+    100% {
+        transform: translate(100vw) scale(1.2);
+    }
+}
